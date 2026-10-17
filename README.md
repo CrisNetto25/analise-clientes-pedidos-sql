@@ -42,3 +42,49 @@ Os dados são simulados para fins educacionais; portanto, os resultados demonstr
 
 ## Autoria
 Cristina Netto Silva — [GitHub](https://github.com/CrisNetto25)
+
+## Resultados da análise
+
+A análise foi realizada com uma base de dados 100% fictícia, composta por 7 clientes e 5 pedidos, utilizando PostgreSQL.
+
+### Indicadores gerais
+
+| Indicador | Resultado |
+|---|---|
+| Faturamento total | R$ 865,90 |
+| Quantidade de pedidos | 5 |
+| Ticket médio | R$ 173,18 |
+| Clientes cadastrados | 7 |
+| Clientes que realizaram pedidos | 4 |
+| Clientes sem pedidos | 3 |
+| Maior pedido | R$ 320,00 |
+| Menor pedido | R$ 75,50 |
+
+### Principais insights
+
+**1. Concentração de vendas**
+
+O cliente com maior gasto acumulado realizou compras no valor total de R$ 320,00, representando aproximadamente 36,96% do faturamento.
+
+**2. Clientes sem pedidos**
+
+Dos 7 clientes cadastrados, 3 ainda não realizaram compras, representando aproximadamente 42,86% da base. Esse indicador pode apoiar estratégias de ativação de clientes.
+
+**3. Análise do ticket médio**
+
+O ticket médio de R$ 173,18 permite acompanhar o valor médio das compras e pode servir como referência para futuras análises comerciais.
+
+**4. Segmentação de clientes**
+
+As consultas SQL permitem classificar clientes conforme o valor acumulado de suas compras, facilitando a identificação de diferentes perfis de consumo.
+
+### Competências demonstradas
+
+- Consultas SQL com PostgreSQL.
+- Relacionamentos entre tabelas utilizando JOIN.
+- Agregações com COUNT, SUM, AVG, MAX e MIN.
+- Tratamento de valores nulos com COALESCE.
+- Agrupamento e ordenação de resultados.
+- Análise de indicadores comerciais e segmentação de clientes.
+
+*Todos os dados utilizados neste projeto são fictícios e destinados exclusivamente a fins educacionais e de portfólio.*
